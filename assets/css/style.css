@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    color: #00008B   font-family:Times, Times New Roman, serif
+  }
+header {
+    padding: 20px 35px; }
+  header a {
+    text-decoration: none;
+    color: #FFFFFF
+  }
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  
+  .header-img {
+        width: 100%;
+        height: 150px;
+        background-image:"C:\Users\andre\Desktop\projects\Andrew Ahler Portfolio\assets\images\hero-bg.jpg";
+        background-size: ;
+  }
+  footer {
+    background: #00008B;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  footer h2 {
+    display: inline;
+    color: #00008B;
+    font-size: 30px;
+    margin: 0;
+  }
+  footer div {
+    float: auto;
+    line-height: 1.5;
+    text-align: right;
+  }
+  section {
+    padding: 60px;
+  }
+  .hero {
+    padding: 35px;
+    background-image: url("../images/hero-bg.jpg");
+  }
+  /* HERO STYLES END */
+  .intro {
+    text-align: center;
+  }
+  .intro p {
+    line-height: 1.7;
+    color: #00008B;    width: 80%;
+    font-size: 20px;
+  }
+  .intro p {
+    /* add this alongside your other declarations */
+    margin: 0 auto;
+  }
+  .steps { 
+    text-align: center;
+    background: #A9A9A9
+  }
+  .section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+  }
+  
+  .primary-border {
+    border-color: #A9A9A9;
+  }
+  
+  .secondary-border {
+    border-color: #00008B;  }
+.mainsection img{ 
+    max-height: 200px;  
+
+}
