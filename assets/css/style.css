@@ -4,7 +4,9 @@
     box-sizing: border-box;
   }
 body {
-    color: #00008B   font-family:Times, Times New Roman, serif
+    font-family: Times, Times New Roman, serif;
+    background-color: rgb(181, 184, 174);
+    font-weight: 400;
   }
 header {
     padding: 20px 35px; }
@@ -25,20 +27,18 @@ header {
     font-size: 22px;
   }
   
-  .header-img {
-        width: 100%;
-        height: 150px;
-        background-image:"C:\Users\andre\Desktop\projects\Andrew Ahler Portfolio\assets\images\hero-bg.jpg";
-        background-size: ;
-  }
   footer {
-    background: #00008B;
     width: 100%;
+    height:15vh;
     padding: 20px 35px;
+    color: white;
+    background-image: url("../images/grass.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
   }
   footer h2 {
     display: inline;
-    color: #00008B;
+    color: #f8f8f8;
     font-size: 30px;
     margin: 0;
   }
@@ -49,44 +49,20 @@ header {
   }
   section {
     padding: 60px;
+    flex-wrap: inherit;
   }
-  .hero {
-    padding: 35px;
-    background-image: url("../images/hero-bg.jpg");
+  #hero {
+    background-image: url("../images/valley.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 25vh;
   }
-  /* HERO STYLES END */
-  .intro {
-    text-align: center;
-  }
-  .intro p {
-    line-height: 1.7;
-    color: #00008B;    width: 80%;
-    font-size: 20px;
-  }
-  .intro p {
-    /* add this alongside your other declarations */
-    margin: 0 auto;
-  }
-  .steps { 
-    text-align: center;
-    background: #A9A9A9
-  }
-  .section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-  }
-  
-  .primary-border {
-    border-color: #A9A9A9;
-  }
-  
-  .secondary-border {
-    border-color: #00008B;  }
-.mainsection img{ 
+  .mainsection img{ 
     max-height: 200px;  
-
 }
+#grad1 {
+  height: 100px;
+  background-image: linear-gradient(180deg,rgb(181, 184, 174), gray,navy, blue,cyan);
+}
+
