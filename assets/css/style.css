@@ -5,18 +5,17 @@
   }
 body {
     font-family: Times, Times New Roman, serif;
-    background-color: rgb(181, 184, 174);
+    background-image: url("../images/background.jpg");
     font-weight: 400;
   }
 header {
-    padding: 20px 35px; }
+    padding: 60px 35px; }
   header a {
     text-decoration: none;
     color: #FFFFFF
   }
   header nav {
     float: right;
-    margin: 7px 0;
   }
   header nav ul li {
     display: inline;
@@ -30,9 +29,8 @@ header {
   footer {
     width: 100%;
     height:15vh;
-    padding: 20px 35px;
+    padding: 50px 35px;
     color: white;
-    background-image: url("../images/grass.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
   }
@@ -63,6 +61,31 @@ header {
 }
 #grad1 {
   height: 100px;
-  background-image: linear-gradient(180deg,rgb(181, 184, 174), gray,navy, blue,cyan);
+  background-image: linear-gradient(180deg,rgb(181, 184, 174), gray,black);
+}
+p {
+font-size: 16px;
+color: #FFFFFF;
+}
+li {
+  color: #FFFFFF;
+}
+h2 {
+  color: #FFFFFF;
 }
 
+@media screen and (max-width: 980px) {
+  header h1 a {
+    color: white;
+  }
+}
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 575px) {
+  header h1 {
+    font-size: 100px;
+  }
+}
